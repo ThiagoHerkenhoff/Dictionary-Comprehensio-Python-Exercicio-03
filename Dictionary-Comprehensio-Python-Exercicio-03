@@ -1,0 +1,13 @@
+"""
+Objetivo: Criar um dicionário onde as chaves são números de 1 a 20 e os valores são 
+strings "par" ou "ímpar" indicando se o número é par ou ímpar.
+
+Instruções:
+
+    Usar dictionary comprehension para gerar um dicionário com os números de 1 a 20 como chaves
+     e "par" ou "ímpar" como valores.
+    Exibir o dicionário resultante.
+"""
+
+numeros = {n: ('par' if n % 2 == 0 else 'impar') for n in range(1, 21)}
+print(numeros)
